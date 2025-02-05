@@ -9,7 +9,7 @@ def main():
     username = st.text_input("Username")
     email = st.text_input("Email*")
     password = st.text_input("Password", type="password")
-    confirm_password = st.text_input("Confirm Password", type="password")
+    confirm_password = st.text_input("Confirm Password*", type="password")
 
     # Checkbox for terms and conditions
     terms_accepted = st.checkbox("I agree to the terms and conditions")
